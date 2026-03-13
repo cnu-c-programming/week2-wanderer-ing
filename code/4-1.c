@@ -2,7 +2,20 @@
 
 int main()
 {
-
+    int a,b;
+    char c;
+    
+    scanf("%d %d %c", &a, &b, &c);
+    if (c=="+"){
+        print(a+b);
+    } else if (c=='-'){
+        print(a-b);
+    } else if (c=='*'){
+        print(a*b);
+    } else if (c=='/'){
+        print(a/b);
+    }
+        
     return 0;
 }
 
